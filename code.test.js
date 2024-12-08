@@ -3,7 +3,7 @@ const jsc = require('jsverify');
 
 eval(fs.readFileSync('code.js')+'');
 
-function testFib() {
+function testFib(n) {
     if (n == 1) {
         return 1;
     }
